@@ -1,16 +1,32 @@
-$dark-slate-gray: #0D0D0F;
-$dark-olive-green: #361913;
-$saddle-brown: #642719;
-$brown: #973B21;
-$purple-taupe: #484359;
+// COLORS
+$diamond: #BCF2F4;
+$ghost-white: #F8F8FB;
+$gray-blue: #8690AD;
+$smoky-black: #090A0C;
+$charcoal: #38415E;
 
 $foundation-palette: (
-    primary: $dark-slate-gray,
-    secondary: $purple-taupe,
+    primary: $smoky-black,
+    secondary: $charcoal,
     success: #3adb76,
     warning: #ffae00,
     alert: #cc4b37,
   );
 
+// LAYOUT
+$grid-container-padding: 100px;
+
 @import 'foundation';
 @include foundation-everything(true);
+
+html {
+  background-color: $diamond;
+}
+
+.body * {
+  color: $charcoal;
+}
+
+html * {
+  background: transparent;
+}

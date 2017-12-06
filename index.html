@@ -19,13 +19,30 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
+        <!-- TOP BAR -->
+        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+            <div class="title-bar-title">Menu</div>
+        </div>
+        
+        <div class="top-bar" id="responsive-menu">
+            <div class="top-bar-left">
+                <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">Home</li>
+                <li class="has-submenu"><a href="#0">About</a></li>
+                <li><a href="#0">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- BODY -->
         <h1>Justin Morrow</h1>
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/foundation.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 

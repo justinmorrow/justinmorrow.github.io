@@ -1,32 +1,20 @@
 {
   "name": "justinmorrow.github.io",
-  "version": "1.0.0",
-  "description": "Personal Website",
-  "main": "index.html",
-  "directories": {
-    "doc": "doc"
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://justinmorrow.github.io",
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "gulp",
-    "build": "gulp sass"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/justinmorrow/justinmorrow.github.io.git"
-  },
-  "author": "Justin Morrow <justin.morrow81@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/justinmorrow/justinmorrow.github.io/issues"
-  },
-  "homepage": "https://github.com/justinmorrow/justinmorrow.github.io#readme",
-  "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-sass": "^3.1.0"
-  },
-  "dependencies": {
-    "foundation-sites": "^6.4.4-rc1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   }
 }

@@ -1,5 +1,45 @@
+@import "./components/Navbar.scss";
+@import "./styles/colors.scss";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-color: $color-complement-1;
+  animation: color_change 3s infinite alternate;
+}
+
+@keyframes color_change {
+  0%,
+  100% {
+    background-color: $color-primary-0;
+  }
+  10% {
+    background-color: $color-complement-0;
+  }
+  20% {
+    background-color: $color-primary-1;
+  }
+  30% {
+    background-color: $color-complement-1;
+  }
+  40% {
+    background-color: $color-primary-2;
+  }
+  50% {
+    background-color: $color-complement-2;
+  }
+  60% {
+    background-color: $color-primary-3;
+  }
+  70% {
+    background-color: $color-complement-3;
+  }
+  80% {
+    background-color: $color-primary-4;
+  }
+  90% {
+    background-color: $color-complement-4;
+  }
 }

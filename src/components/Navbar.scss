@@ -1,0 +1,12 @@
+@import "../styles/colors.scss";
+
+.Navbar {
+  padding: 8px 0px;
+  background-color: #222;
+  text-align: center;
+
+  a {
+    color: $color-primary-0;
+    text-decoration: none;
+  }
+}

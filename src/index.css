@@ -1,4 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.Navbar {
+  padding: 8px 0px;
+  background-color: #222;
+  text-align: center; }
+  .Navbar a {
+    color: #9ce5fd;
+    text-decoration: none; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffd9b1;
+  animation: color_change 3s infinite alternate; }
+
+@keyframes color_change {
+  0%,
+  100% {
+    background-color: #9ce5fd; }
+  10% {
+    background-color: #ffcd99; }
+  20% {
+    background-color: #a0d2e2; }
+  30% {
+    background-color: #ffd9b1; }
+  40% {
+    background-color: #a0d2e2; }
+  50% {
+    background-color: #ffd9b1; }
+  60% {
+    background-color: #17a3d1; }
+  70% {
+    background-color: #ff8c14; }
+  80% {
+    background-color: #17a3d1; }
+  90% {
+    background-color: #ff8c14; } }

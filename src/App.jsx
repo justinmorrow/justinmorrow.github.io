@@ -14,7 +14,7 @@ class App extends Component {
           <p>It's currently under construction, but enjoy this spinning cat!</p>
           <img className="kitty" src={kitty} />
         </div>
-        <div className="section">
+        {/* <div className="section">
           <h1>
             I love{" "}
             <span
@@ -23,7 +23,7 @@ class App extends Component {
               data-rotate="[ &quot;nerds.&quot;, &quot;life hackers.&quot;, &quot;health nuts.&quot;, &quot;friendly people.&quot;, &quot;education.&quot; ]"
             />
           </h1>
-        </div>
+        </div> */}
         <Footer />
       </div>
     );

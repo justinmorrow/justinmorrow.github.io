@@ -1,7 +1,8 @@
-@import "../styles/colors.scss";
-
-.Navbar {
+.Footer {
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
   a {
     color: $color-primary-0;

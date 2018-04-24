@@ -1,14 +1,68 @@
 @import "./components/Navbar.scss";
+@import "./components/Footer.scss";
 @import "./styles/colors.scss";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import "./styles/bar.scss";
+
+// Font settings
+
+html {
+  font-size: 1em;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cabin", sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+small,
+.font_small {
+  font-size: 0.707em;
+}
+
+// Styles
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
   background-color: $color-complement-1;
   animation: color_change 3s infinite alternate;
 }
+
+// Animations
 
 @keyframes color_change {
   0%,

@@ -1,5 +1,8 @@
-.Navbar {
-  text-align: center; }
-  .Navbar a {
+.Footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .Footer a {
     color: #9ce5fd;
     text-decoration: none; }
